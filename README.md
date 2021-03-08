@@ -1,1 +1,3 @@
-# lecture_cmake_template
+#  L03_data_structures
+
+Демо код занятия № 03: структуры данных.
