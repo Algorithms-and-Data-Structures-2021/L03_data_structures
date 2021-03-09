@@ -1,4 +1,4 @@
-# L03_data_structures
+# L03_data_structures: Array List and Linked List
 
 Демо код занятия № 03 по теме линейные структуры данных, массив переменной длины и связный список.
 
