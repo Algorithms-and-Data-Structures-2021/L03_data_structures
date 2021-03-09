@@ -10,3 +10,4 @@ include_directories(include)
 # add executables
 add_executable(array_list src/arrays_list.cpp include/array_list.hpp)
 add_executable(linked_list src/linked_list.cpp include/linked_list.hpp)
+add_executable(main main.cpp)
