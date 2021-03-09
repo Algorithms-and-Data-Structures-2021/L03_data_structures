@@ -2,14 +2,13 @@
 
 #include <iostream>
 
-namespace itis {
-
-
-
-}  // namespace itis
-
-// === Запуск программы ===
+using namespace itis;
 
 int main() {
+
+  auto list = new ArrayList(/* capacity */);
+
+  // To Do ...
+
   return 0;
 }
