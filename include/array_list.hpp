@@ -1,8 +1,9 @@
 #pragma once
 
-#include <string>
 #include <algorithm>  // copy
+#include <cassert>    // assert
 #include <stdexcept>  // out_of_range
+#include <string>     // to_string
 
 namespace itis {
 
@@ -74,7 +75,9 @@ struct ArrayList {
   }
 
   /**
-   * Удаление элементов массива. Сложность операции - O(n).
+   * Удаление всех элементов массива.
+   * Сложность операции - O(1).
+   *
    * Емкость (capacity) массива остается прежним.
    */
   void Clear() {
@@ -106,6 +109,7 @@ struct ArrayList {
    */
   int IndexOf(char element) const {
     // To Do ...
+    return {};
   }
 
   /**
@@ -149,7 +153,8 @@ struct ArrayList {
    * @param new_capacity - новая емкость массива (должна быть больше предыдущей)
    */
   void resize(int new_capacity) {
-    if (new_capacity <= capacity_) return;
+    assert(new_capacity > capacity_);
+
     // To Do ...
   }
 
